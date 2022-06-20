@@ -22,6 +22,8 @@ open class AbstractPurchaseViewModel<Action: CustomAction>: PurchaseViewModel {
     
     @Published
     public var selectedProductIndex: Int?
+    
+    public init() {}
         
     public func productsLoadFinished(_ result: Result<[SKProduct], Error>) {
         products = try? result.get()
