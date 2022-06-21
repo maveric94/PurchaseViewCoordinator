@@ -1,3 +1,3 @@
 # PurchaseViewCoordinator
 
-A description of this package.
+Simple basis for screens with purchases using SwiftUI.
